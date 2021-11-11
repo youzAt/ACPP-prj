@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp" "/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/src/electrician.cpp.o"
   "/home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp" "/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

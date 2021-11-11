@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/electrician.hpp
+string
+-
+
+/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp
+iostream
+-
+iomanip
+-
+electrician.hpp
+/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.hpp
+

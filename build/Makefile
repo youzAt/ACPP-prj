@@ -123,6 +123,33 @@ app/fast:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+src/electrician.o: src/electrician.cpp.o
+
+.PHONY : src/electrician.o
+
+# target to build an object file
+src/electrician.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/electrician.cpp.o
+.PHONY : src/electrician.cpp.o
+
+src/electrician.i: src/electrician.cpp.i
+
+.PHONY : src/electrician.i
+
+# target to preprocess a source file
+src/electrician.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/electrician.cpp.i
+.PHONY : src/electrician.cpp.i
+
+src/electrician.s: src/electrician.cpp.s
+
+.PHONY : src/electrician.s
+
+# target to generate assembly for a file
+src/electrician.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/electrician.cpp.s
+.PHONY : src/electrician.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... app"
+	@echo "... src/electrician.o"
+	@echo "... src/electrician.i"
+	@echo "... src/electrician.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
