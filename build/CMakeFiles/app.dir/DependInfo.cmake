@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp" "/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/src/electrician.cpp.o"
   "/home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp" "/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/src/main.cpp.o"
+  "/home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp" "/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/src/wire.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

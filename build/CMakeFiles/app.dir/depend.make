@@ -5,5 +5,9 @@ CMakeFiles/app.dir/src/electrician.cpp.o: ../include/electrician.hpp
 CMakeFiles/app.dir/src/electrician.cpp.o: ../src/electrician.cpp
 
 CMakeFiles/app.dir/src/main.cpp.o: ../include/electrician.hpp
+CMakeFiles/app.dir/src/main.cpp.o: ../include/wire.hpp
 CMakeFiles/app.dir/src/main.cpp.o: ../src/main.cpp
+
+CMakeFiles/app.dir/src/wire.cpp.o: ../include/wire.hpp
+CMakeFiles/app.dir/src/wire.cpp.o: ../src/wire.cpp
 

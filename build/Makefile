@@ -177,6 +177,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/wire.o: src/wire.cpp.o
+
+.PHONY : src/wire.o
+
+# target to build an object file
+src/wire.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/wire.cpp.o
+.PHONY : src/wire.cpp.o
+
+src/wire.i: src/wire.cpp.i
+
+.PHONY : src/wire.i
+
+# target to preprocess a source file
+src/wire.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/wire.cpp.i
+.PHONY : src/wire.cpp.i
+
+src/wire.s: src/wire.cpp.s
+
+.PHONY : src/wire.s
+
+# target to generate assembly for a file
+src/wire.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/wire.cpp.s
+.PHONY : src/wire.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/wire.o"
+	@echo "... src/wire.i"
+	@echo "... src/wire.s"
 .PHONY : help
 
 

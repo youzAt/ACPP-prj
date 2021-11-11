@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/electrician.hpp
-string
--
+../include/wire.hpp
 
-/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp
+/home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp
+wire.hpp
+/home/youzat/Desktop/Tamrins/ACPP-project/src/wire.hpp
 iostream
 -
 iomanip
 -
-electrician.hpp
-/home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.hpp
 

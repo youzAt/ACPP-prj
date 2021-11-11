@@ -65,6 +65,7 @@ electrician::electrician_level electrician::get_level() const
 void electrician::print_info() const
 {
 	cout << "--------------" << endl;
+	cout << "ELECTRICIAN INFO" << endl;
 	cout << left << setw(10) << "name: " << get_name() << endl;
 	cout << left << setw(10) << "age: " << get_age() << endl;
 	switch (get_level())

@@ -6,4 +6,8 @@ CMakeFiles/app.dir/src/electrician.cpp.o
  /home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp
 CMakeFiles/app.dir/src/main.cpp.o
  ../include/electrician.hpp
+ ../include/wire.hpp
  /home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp
+CMakeFiles/app.dir/src/wire.cpp.o
+ ../include/wire.hpp
+ /home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp
