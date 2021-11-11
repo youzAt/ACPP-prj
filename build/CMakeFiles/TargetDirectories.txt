@@ -1,0 +1,3 @@
+/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/rebuild_cache.dir
+/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/edit_cache.dir
+/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir
