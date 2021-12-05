@@ -6,6 +6,7 @@ set(SOURCES
 	src/main.cpp
 	src/electrician.cpp
 	src/wire.cpp
+	src/tool.cpp
 	)
 
 cmake_minimum_required(VERSION 3.0)
