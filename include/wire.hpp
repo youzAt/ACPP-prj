@@ -1,16 +1,17 @@
 #ifndef WIRE_HPP
 #define WIRE_HPP
-
-class wire
+#include"tool.hpp"
+class wire : public tool
 {
 public:
 	enum wire_type
 	{
-		Low_voltage,
+		Low_voltage = 1,
 		High_voltage
 	};
 
-	wire(float, int, int = 1);
+	wire(float, int, int, float);
+	virtual void print_info() const override;
 
 	void set_length(float);
 	float get_length() const;
@@ -21,7 +22,6 @@ public:
 	void set_type(int);
 	wire_type get_type() const;
 
-	void print_info() const;
 	
 private:
 	float length;

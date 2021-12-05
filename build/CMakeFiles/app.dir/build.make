@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youzat/Desktop/Tamrins/ACPP-project
+CMAKE_SOURCE_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youzat/Desktop/Tamrins/ACPP-project/build
+CMAKE_BINARY_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -59,48 +59,76 @@ include CMakeFiles/app.dir/flags.make
 
 CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/main.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/main.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp
 
 CMakeFiles/app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp > CMakeFiles/app.dir/src/main.cpp.i
 
 CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-project/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
 CMakeFiles/app.dir/src/electrician.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/electrician.cpp.o: ../src/electrician.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/electrician.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/electrician.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/electrician.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/electrician.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.cpp
 
 CMakeFiles/app.dir/src/electrician.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/electrician.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp > CMakeFiles/app.dir/src/electrician.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.cpp > CMakeFiles/app.dir/src/electrician.cpp.i
 
 CMakeFiles/app.dir/src/electrician.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/electrician.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-project/src/electrician.cpp -o CMakeFiles/app.dir/src/electrician.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.cpp -o CMakeFiles/app.dir/src/electrician.cpp.s
 
 CMakeFiles/app.dir/src/wire.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/wire.cpp.o: ../src/wire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/wire.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/wire.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/wire.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/wire.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp
 
 CMakeFiles/app.dir/src/wire.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/wire.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp > CMakeFiles/app.dir/src/wire.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp > CMakeFiles/app.dir/src/wire.cpp.i
 
 CMakeFiles/app.dir/src/wire.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/wire.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp -o CMakeFiles/app.dir/src/wire.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp -o CMakeFiles/app.dir/src/wire.cpp.s
+
+CMakeFiles/app.dir/src/tool.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/tool.cpp.o: ../src/tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/tool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/tool.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp
+
+CMakeFiles/app.dir/src/tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/tool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp > CMakeFiles/app.dir/src/tool.cpp.i
+
+CMakeFiles/app.dir/src/tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/tool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp -o CMakeFiles/app.dir/src/tool.cpp.s
+
+CMakeFiles/app.dir/src/lamp.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/lamp.cpp.o: ../src/lamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/lamp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/src/lamp.cpp.o -c /home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp
+
+CMakeFiles/app.dir/src/lamp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/lamp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp > CMakeFiles/app.dir/src/lamp.cpp.i
+
+CMakeFiles/app.dir/src/lamp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/lamp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp -o CMakeFiles/app.dir/src/lamp.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.o" \
 "CMakeFiles/app.dir/src/electrician.cpp.o" \
-"CMakeFiles/app.dir/src/wire.cpp.o"
+"CMakeFiles/app.dir/src/wire.cpp.o" \
+"CMakeFiles/app.dir/src/tool.cpp.o" \
+"CMakeFiles/app.dir/src/lamp.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
@@ -108,9 +136,11 @@ app_EXTERNAL_OBJECTS =
 app: CMakeFiles/app.dir/src/main.cpp.o
 app: CMakeFiles/app.dir/src/electrician.cpp.o
 app: CMakeFiles/app.dir/src/wire.cpp.o
+app: CMakeFiles/app.dir/src/tool.cpp.o
+app: CMakeFiles/app.dir/src/lamp.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +153,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/youzat/Desktop/Tamrins/ACPP-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youzat/Desktop/Tamrins/ACPP-project /home/youzat/Desktop/Tamrins/ACPP-project /home/youzat/Desktop/Tamrins/ACPP-project/build /home/youzat/Desktop/Tamrins/ACPP-project/build /home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/youzat/Desktop/Tamrins/ACPP-prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/youzat/Desktop/Tamrins/ACPP-prj /home/youzat/Desktop/Tamrins/ACPP-prj /home/youzat/Desktop/Tamrins/ACPP-prj/build /home/youzat/Desktop/Tamrins/ACPP-prj/build /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 

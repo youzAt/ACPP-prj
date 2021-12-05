@@ -4,10 +4,20 @@
 CMakeFiles/app.dir/src/electrician.cpp.o: ../include/electrician.hpp
 CMakeFiles/app.dir/src/electrician.cpp.o: ../src/electrician.cpp
 
+CMakeFiles/app.dir/src/lamp.cpp.o: ../include/lamp.hpp
+CMakeFiles/app.dir/src/lamp.cpp.o: ../include/tool.hpp
+CMakeFiles/app.dir/src/lamp.cpp.o: ../src/lamp.cpp
+
 CMakeFiles/app.dir/src/main.cpp.o: ../include/electrician.hpp
+CMakeFiles/app.dir/src/main.cpp.o: ../include/lamp.hpp
+CMakeFiles/app.dir/src/main.cpp.o: ../include/tool.hpp
 CMakeFiles/app.dir/src/main.cpp.o: ../include/wire.hpp
 CMakeFiles/app.dir/src/main.cpp.o: ../src/main.cpp
 
+CMakeFiles/app.dir/src/tool.cpp.o: ../include/tool.hpp
+CMakeFiles/app.dir/src/tool.cpp.o: ../src/tool.cpp
+
+CMakeFiles/app.dir/src/wire.cpp.o: ../include/tool.hpp
 CMakeFiles/app.dir/src/wire.cpp.o: ../include/wire.hpp
 CMakeFiles/app.dir/src/wire.cpp.o: ../src/wire.cpp
 

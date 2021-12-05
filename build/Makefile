@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youzat/Desktop/Tamrins/ACPP-project
+CMAKE_SOURCE_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youzat/Desktop/Tamrins/ACPP-project/build
+CMAKE_BINARY_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles /home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ src/electrician.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/electrician.cpp.s
 .PHONY : src/electrician.cpp.s
 
+src/lamp.o: src/lamp.cpp.o
+
+.PHONY : src/lamp.o
+
+# target to build an object file
+src/lamp.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/lamp.cpp.o
+.PHONY : src/lamp.cpp.o
+
+src/lamp.i: src/lamp.cpp.i
+
+.PHONY : src/lamp.i
+
+# target to preprocess a source file
+src/lamp.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/lamp.cpp.i
+.PHONY : src/lamp.cpp.i
+
+src/lamp.s: src/lamp.cpp.s
+
+.PHONY : src/lamp.s
+
+# target to generate assembly for a file
+src/lamp.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/lamp.cpp.s
+.PHONY : src/lamp.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -176,6 +203,33 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/tool.o: src/tool.cpp.o
+
+.PHONY : src/tool.o
+
+# target to build an object file
+src/tool.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/tool.cpp.o
+.PHONY : src/tool.cpp.o
+
+src/tool.i: src/tool.cpp.i
+
+.PHONY : src/tool.i
+
+# target to preprocess a source file
+src/tool.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/tool.cpp.i
+.PHONY : src/tool.cpp.i
+
+src/tool.s: src/tool.cpp.s
+
+.PHONY : src/tool.s
+
+# target to generate assembly for a file
+src/tool.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/tool.cpp.s
+.PHONY : src/tool.cpp.s
 
 src/wire.o: src/wire.cpp.o
 
@@ -216,9 +270,15 @@ help:
 	@echo "... src/electrician.o"
 	@echo "... src/electrician.i"
 	@echo "... src/electrician.s"
+	@echo "... src/lamp.o"
+	@echo "... src/lamp.i"
+	@echo "... src/lamp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tool.o"
+	@echo "... src/tool.i"
+	@echo "... src/tool.s"
 	@echo "... src/wire.o"
 	@echo "... src/wire.i"
 	@echo "... src/wire.s"

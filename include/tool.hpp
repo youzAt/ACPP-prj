@@ -5,7 +5,7 @@ class tool
 {
 public:
 	tool(float);
-	virtual void print_info() const;
+	virtual void print_info() const = 0;
 
 	void set_price(float);
 	float get_price() const;

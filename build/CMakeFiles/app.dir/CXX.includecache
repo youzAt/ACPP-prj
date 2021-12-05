@@ -6,11 +6,33 @@
 
 #IncludeRegexTransform: 
 
-../include/wire.hpp
+../include/electrician.hpp
+string
+-
 
-/home/youzat/Desktop/Tamrins/ACPP-project/src/wire.cpp
+../include/lamp.hpp
+tool.hpp
+../include/tool.hpp
+
+../include/tool.hpp
+
+../include/wire.hpp
+tool.hpp
+../include/tool.hpp
+
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp
+iostream
+-
+electrician.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.hpp
 wire.hpp
-/home/youzat/Desktop/Tamrins/ACPP-project/src/wire.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.hpp
+lamp.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.hpp
+
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp
+wire.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.hpp
 iostream
 -
 iomanip

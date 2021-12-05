@@ -1,4 +1,4 @@
-# Install script for directory: /home/youzat/Desktop/Tamrins/ACPP-project
+# Install script for directory: /home/youzat/Desktop/Tamrins/ACPP-prj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/youzat/Desktop/Tamrins/ACPP-project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/youzat/Desktop/Tamrins/ACPP-prj/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

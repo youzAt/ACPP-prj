@@ -3,18 +3,18 @@
 #include <iomanip>
 using namespace std;
 
-wire::wire(float length, int diameter, int type)
+wire::wire(float length, int diameter, int type, float wirePrice) : tool(wirePrice)
 {
 	set_diameter(diameter);
 	set_length(length);
 	set_type(type);
 }
 
-void wire::set_length(float wire_length)
+void wire::set_length(float wireLength)
 {
-	if (wire_length > 0)
+	if (wireLength > 0)
 	{
-		length = wire_length;
+		length = wireLength;
 	}
 	else
 	{
@@ -26,11 +26,11 @@ float wire::get_length() const
 	return length;
 }
 
-void wire::set_diameter(int wire_diameter)
+void wire::set_diameter(int wireDiameter)
 {
-	if (wire_diameter > 0)
+	if (wireDiameter > 0)
 	{
-		diameter = wire_diameter;
+		diameter = wireDiameter;
 	}
 	else
 	{
@@ -42,9 +42,9 @@ int wire::get_diameter() const
 	return diameter;
 }
 
-void wire::set_type(int wire_type)
+void wire::set_type(int wireType)
 {
-	switch (wire_type)
+	switch (wireType)
 	{
 	case 1:
 		type = wire_type::Low_voltage;
@@ -65,23 +65,27 @@ wire::wire_type wire::get_type() const
 
 void wire::print_info() const
 {
-	cout << "--------------" << endl;
+	cout << "-------------------" << endl;
 	cout << "WIRE INFO" << endl;
-	cout << left << setw(10) << "length: " << get_length() << " m" << endl;
-	cout << left << setw(10) << "diametr: " << get_diameter() << " mm" << endl;
+	cout << left << setw(15) << "length: " << get_length() << "m" << endl;
+	cout << left << setw(15) << "diametr: " << get_diameter() << "mm" << endl;
 	switch (get_type())
 	{
 	case 1:
-		cout << left << setw(10) << "type: "
+		cout << left << setw(15) << "type: "
 			 << "for low voltage" << endl;
 
 		break;
 	case 2:
-		cout << left << setw(10) << "type: "
+		cout << left << setw(15) << "type: "
 			 << "for hight voltage" << endl;
 
 		break;
 	
 	}
-	cout << "--------------" << endl;
+	cout << left << setw(15) << "price: "
+			 << get_price() << "$" << endl;
+	cout << left << setw(15) << "durability: "
+			 << get_durability() << endl;
+	cout << "-------------------" << endl;
 }
