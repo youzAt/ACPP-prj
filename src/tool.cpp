@@ -51,3 +51,20 @@ int tool::get_durability() const
 {
 	return durability;
 }
+
+float tool::operator+(const tool & sec) const
+{
+	return this->get_price() + sec.get_price();
+}
+float tool::operator+(const float & sec) const
+{
+	return this->get_price() + sec;
+}
+float tool::operator-(const tool & sec) const
+{
+	return this->get_price() - sec.get_price();
+}
+float tool::operator-(const float & sec) const
+{
+	return this->get_price() - sec;
+}

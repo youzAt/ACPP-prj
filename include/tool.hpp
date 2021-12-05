@@ -15,6 +15,11 @@ public:
 
 	int get_durability() const;
 
+	float operator+(const tool &) const;
+	float operator+(const float &) const;
+	float operator-(const tool &) const;
+	float operator-(const float &) const;
+
 private:
 	float price = 00.00;
 	int durability = 200;

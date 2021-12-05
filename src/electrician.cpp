@@ -64,27 +64,27 @@ electrician::electrician_level electrician::get_level() const
 
 void electrician::print_info() const
 {
-	cout << "--------------" << endl;
+	cout << "-------------------" << endl;
 	cout << "ELECTRICIAN INFO" << endl;
-	cout << left << setw(10) << "name: " << get_name() << endl;
-	cout << left << setw(10) << "age: " << get_age() << endl;
+	cout << left << setw(15) << "name: " << get_name() << endl;
+	cout << left << setw(15) << "age: " << get_age() << endl;
 	switch (get_level())
 	{
 	case 1:
-		cout << left << setw(10) << "level: "
+		cout << left << setw(15) << "level: "
 			 << "Beginner" << endl;
 
 		break;
 	case 2:
-		cout << left << setw(10) << "level: "
+		cout << left << setw(15) << "level: "
 			 << "Intermediat" << endl;
 
 		break;
 	case 3:
-		cout << left << setw(10) << "level: "
+		cout << left << setw(15) << "level: "
 			 << "Professional" << endl;
 
 		break;
 	}
-	cout << "--------------" << endl;
+	cout << "------------------" << endl;
 }

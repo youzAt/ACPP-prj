@@ -20,6 +20,14 @@ tool.hpp
 tool.hpp
 ../include/tool.hpp
 
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp
+iostream
+-
+iomanip
+-
+lamp.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.hpp
+
 /home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp
 iostream
 -
@@ -29,6 +37,12 @@ wire.hpp
 /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.hpp
 lamp.hpp
 /home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.hpp
+
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp
+iostream
+-
+tool.hpp
+/home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.hpp
 
 /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp
 wire.hpp
