@@ -17,4 +17,4 @@ int main()
 	cout << *b - 5 << endl;
 
 	return 0;
-}
+} //end of phase #2
