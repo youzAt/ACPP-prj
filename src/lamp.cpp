@@ -3,58 +3,65 @@
 #include "lamp.hpp"
 using namespace std;
 
+// lamp class constructor definition (also calls tool constructor)
 lamp::lamp(int lampType, int lampColor, float lampPrice) : tool(lampPrice)
 {
-	set_type(lampType);
-	set_color(lampColor);
+	set_type(lampType); // set lamp type
+	set_color(lampColor); // set lamp color
 }
 
+// lamp class set_type function definition
 void lamp::set_type(int lampType)
 {
-	switch (lampType)
+	switch (lampType) // set lamp type based on lamType number
 	{
-	case 1:
+	case 1: // Incandescent
 		type = lamp_type::Incandescent;
 		break;
-	case 2:
+	case 2: // LED
 		type = lamp_type::LED;
 		break;
 
-	default:
+	default: // error for invalid lamp type input
 		cout << "invalid number for lamp type!!!" << endl;
 		break;
 	}
 }
 
+// lamp class set_color function definition
 void lamp::set_color(int lampColor)
 {
-	switch (lampColor)
+	switch (lampColor) // set lamp color based on lampColor number
 	{
-	case 1:
+	case 1: // white
 		color = lamp_color::White;
 		break;
-	case 2:
+	case 2: //yellow
 		color = lamp_color::Yellow;
 		break;
 
-	default:
+	default: // error for invalid lamp color input
 		cout << "invalid number for lamp color!!!" << endl;
 		break;
 	}
 }
 
+// lamp class get_type function definition
 lamp::lamp_type lamp::get_type() const
 {
-	return type;
+	return type; // return lamp type
 }
 
+// lamp class get_color function definition
 lamp::lamp_color lamp::get_color() const
 {
-	return color;
+	return color; //return lamp color
 }
 
+// lamp class print_info function definition
 void lamp::print_info() const
 {
+	// print lamp information
 	cout << "-------------------" << endl;
 	cout << "LAMP INFO" << endl;
 	switch (get_type())
