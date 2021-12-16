@@ -10,27 +10,11 @@
 string
 -
 
-../include/lamp.hpp
-tool.hpp
-../include/tool.hpp
-
-../include/tool.hpp
-
-../include/wire.hpp
-tool.hpp
-../include/tool.hpp
-
-/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/main.cpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.cpp
 iostream
 -
-vector
+iomanip
 -
 electrician.hpp
 /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.hpp
-wire.hpp
-/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.hpp
-lamp.hpp
-/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.hpp
-tool.hpp
-/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/tool.hpp
 

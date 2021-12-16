@@ -13,7 +13,7 @@ void tool::set_price(float toolPrice)
 {
 	if (toolPrice <= 0) // validation and set tool price
 	{
-		cout << "The tool price should be greater than 00.00$" << endl;
+		throw out_of_range("The tool price should be greater than 00.00$");
 	}
 	else
 	{
@@ -32,7 +32,7 @@ void tool::use_tool()
 {
 	if (durability == 0) // validation and decrease tool duarability
 	{
-		cout << "The tool needs to get fixed first" << endl;
+		throw invalid_argument("The tool needs to get fixed first");
 	}
 	else
 	{
@@ -45,7 +45,7 @@ void tool::fix_tool()
 {
 	if (durability == 200) // validation and set durabiliy to 200
 	{
-		cout << "the tool is already fixed!!!" << endl;
+		throw invalid_argument("the tool is already fixed!!!");
 	}
 	else
 	{

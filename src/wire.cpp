@@ -7,8 +7,8 @@ using namespace std;
 wire::wire(float length, int diameter, int type, float wirePrice) : tool(wirePrice)
 {
 	set_diameter(diameter); // set wire diameter
-	set_length(length);		// set wire length
-	set_type(type);			// set wire type
+	set_length(length);	// set wire length
+	set_type(type);		// set wire type
 }
 
 // wire class set_length function definition
@@ -16,11 +16,12 @@ void wire::set_length(float wireLength)
 {
 	if (wireLength > 0) // set and validation wire length
 	{
-		length = wireLength; 
+		length = wireLength;
 	}
 	else
 	{
-		cout << "invalid length!!!" << endl; // error for invalid wire length
+		// error for invalid wire length
+		throw out_of_range("the wire length should be greater than 0!!!");
 	}
 }
 
@@ -39,7 +40,8 @@ void wire::set_diameter(int wireDiameter)
 	}
 	else
 	{
-		cout << "invalid wire diameter!!!" << endl; // error for invalid wire diameter
+		// error for invalid wire diameter
+		throw out_of_range("the wire diameter should be greater than 0!!!");
 	}
 }
 
@@ -61,7 +63,7 @@ void wire::set_type(int wireType)
 		type = wire_type::High_voltage;
 		break;
 	default: // error for invalid wire type number
-		cout << "invalid number for wire type!!!" << endl;
+		throw invalid_argument("invalid number for wire type!!!");
 		break;
 	}
 }
@@ -75,7 +77,7 @@ wire::wire_type wire::get_type() const
 // wire class print_info function definition
 void wire::print_info() const
 {
-	//print wire information
+	// print wire information
 	cout << "-------------------" << endl;
 	cout << "WIRE INFO" << endl;
 	cout << left << setw(15) << "length: " << get_length() << "m" << endl;
@@ -84,18 +86,18 @@ void wire::print_info() const
 	{
 	case 1:
 		cout << left << setw(15) << "type: "
-			 << "for low voltage" << endl;
+		     << "for low voltage" << endl;
 
 		break;
 	case 2:
 		cout << left << setw(15) << "type: "
-			 << "for hight voltage" << endl;
+		     << "for hight voltage" << endl;
 
 		break;
 	}
 	cout << left << setw(15) << "price: "
-		 << get_price() << "$" << endl;
+	     << get_price() << "$" << endl;
 	cout << left << setw(15) << "durability: "
-		 << get_durability() << endl;
+	     << get_durability() << endl;
 	cout << "-------------------" << endl;
 }

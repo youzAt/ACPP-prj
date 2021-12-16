@@ -3,7 +3,7 @@
 #include "electrician.hpp"
 using namespace std;
 
-//electrician class constructor definition
+// electrician class constructor definition
 electrician::electrician(string name, int age, int level)
 {
 	set_name(name);	  // set electrician name
@@ -11,19 +11,19 @@ electrician::electrician(string name, int age, int level)
 	set_level(level); // set electrician level
 }
 
-//electrician class setـname function definition
+// electrician class setـname function definition
 void electrician::set_name(string electrician_name)
 {
-	name = electrician_name; //set electrician name
+	name = electrician_name; // set electrician name
 }
 
-//electrician class get_name function definition
+// electrician class get_name function definition
 string electrician::get_name() const
 {
-	return name; //returns electrician name
+	return name; // returns electrician name
 }
 
-//electrician class set_age function definition
+// electrician class set_age function definition
 void electrician::set_age(int electrician_age)
 {
 	if (electrician_age >= 18 && electrician_age <= 80) // validation and set electrician age
@@ -32,20 +32,21 @@ void electrician::set_age(int electrician_age)
 	}
 	else
 	{
-		cout << "electrician must be in range of 18-80 !!!" << endl; //error for invalid age
+		// error for invalid age
+		throw out_of_range("electrician must age be in range of 18-80 !!!");
 	}
 }
 
-//electrician class get_age function definition
+// electrician class get_age function definition
 int electrician::get_age() const
 {
-	return age; //return electrician age
+	return age; // return electrician age
 }
 
-//electrician class set_level function definition
+// electrician class set_level function definition
 void electrician::set_level(int levelN)
 {
-	switch (levelN) //validation and set electrician level based on input number
+	switch (levelN) // validation and set electrician level based on input number
 	{
 	case 1: // beginner
 		level = electrician_level::Beginer;
@@ -58,18 +59,18 @@ void electrician::set_level(int levelN)
 		break;
 
 	default: // error for invalid level input
-		cout << "invalid number for electrician level!!!" << endl;
-		break;
+		throw invalid_argument("invalid number for electrician level!!!");
+		 break;
 	}
 }
 
-//electrician class get_level function definition
+// electrician class get_level function definition
 electrician::electrician_level electrician::get_level() const
 {
-	return level; //return electrician level
+	return level; // return electrician level
 }
 
-//electrician class print_info function definition
+// electrician class print_info function definition
 void electrician::print_info() const
 {
 	// print electrician information
@@ -81,17 +82,17 @@ void electrician::print_info() const
 	{
 	case 1:
 		cout << left << setw(15) << "level: "
-			 << "Beginner" << endl;
+		     << "Beginner" << endl;
 
 		break;
 	case 2:
 		cout << left << setw(15) << "level: "
-			 << "Intermediat" << endl;
+		     << "Intermediat" << endl;
 
 		break;
 	case 3:
 		cout << left << setw(15) << "level: "
-			 << "Professional" << endl;
+		     << "Professional" << endl;
 
 		break;
 	}

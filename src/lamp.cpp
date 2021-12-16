@@ -6,7 +6,7 @@ using namespace std;
 // lamp class constructor definition (also calls tool constructor)
 lamp::lamp(int lampType, int lampColor, float lampPrice) : tool(lampPrice)
 {
-	set_type(lampType); // set lamp type
+	set_type(lampType);   // set lamp type
 	set_color(lampColor); // set lamp color
 }
 
@@ -23,7 +23,7 @@ void lamp::set_type(int lampType)
 		break;
 
 	default: // error for invalid lamp type input
-		cout << "invalid number for lamp type!!!" << endl;
+		throw invalid_argument("invalid number for lamp type!!!");
 		break;
 	}
 }
@@ -36,12 +36,12 @@ void lamp::set_color(int lampColor)
 	case 1: // white
 		color = lamp_color::White;
 		break;
-	case 2: //yellow
+	case 2: // yellow
 		color = lamp_color::Yellow;
 		break;
 
 	default: // error for invalid lamp color input
-		cout << "invalid number for lamp color!!!" << endl;
+		throw invalid_argument("invalid number for lamp color!!!");
 		break;
 	}
 }
@@ -55,7 +55,7 @@ lamp::lamp_type lamp::get_type() const
 // lamp class get_color function definition
 lamp::lamp_color lamp::get_color() const
 {
-	return color; //return lamp color
+	return color; // return lamp color
 }
 
 // lamp class print_info function definition
@@ -68,12 +68,12 @@ void lamp::print_info() const
 	{
 	case 1:
 		cout << left << setw(15) << "type: "
-			 << "Incandescent" << endl;
+		     << "Incandescent" << endl;
 
 		break;
 	case 2:
 		cout << left << setw(15) << "type: "
-			 << "LED" << endl;
+		     << "LED" << endl;
 
 		break;
 	}
@@ -81,18 +81,18 @@ void lamp::print_info() const
 	{
 	case 1:
 		cout << left << setw(15) << "color: "
-			 << "White" << endl;
+		     << "White" << endl;
 
 		break;
 	case 2:
 		cout << left << setw(15) << "color: "
-			 << "Yellow" << endl;
+		     << "Yellow" << endl;
 
 		break;
 	}
 	cout << left << setw(15) << "price: "
-			 << get_price() << "$" << endl;
+	     << get_price() << "$" << endl;
 	cout << left << setw(15) << "durability: "
-			 << get_durability() << endl;
+	     << get_durability() << endl;
 	cout << "-------------------" << endl;
 }

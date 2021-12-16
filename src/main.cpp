@@ -26,6 +26,15 @@ int main()
 	{
 		cerr << e.what() << endl;
 	}
+	try
+	{
+		tools.push_back(new wire(-5, 1, 2, 20.5));
+	}
+	catch (const exception &e)
+	{
+		cerr << e.what() << endl;
+	}
+	
 	tools[0]->print_info();
 	tools[1]->print_info();
 
