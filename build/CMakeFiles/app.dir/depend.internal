@@ -3,21 +3,21 @@
 
 CMakeFiles/app.dir/src/electrician.cpp.o
  ../include/electrician.hpp
- /home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.cpp
+ /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.cpp
 CMakeFiles/app.dir/src/lamp.cpp.o
  ../include/lamp.hpp
  ../include/tool.hpp
- /home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp
+ /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.cpp
 CMakeFiles/app.dir/src/main.cpp.o
  ../include/electrician.hpp
  ../include/lamp.hpp
  ../include/tool.hpp
  ../include/wire.hpp
- /home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp
+ /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/main.cpp
 CMakeFiles/app.dir/src/tool.cpp.o
  ../include/tool.hpp
- /home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp
+ /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/tool.cpp
 CMakeFiles/app.dir/src/wire.cpp.o
  ../include/tool.hpp
  ../include/wire.hpp
- /home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp
+ /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.cpp

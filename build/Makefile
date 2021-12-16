@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj
+CMAKE_SOURCE_DIR = /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/youzat/Desktop/Tamrins/ACPP-prj/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

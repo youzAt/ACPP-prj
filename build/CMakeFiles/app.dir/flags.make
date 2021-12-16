@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/youzat/Desktop/Tamrins/ACPP-prj/include 
+CXX_INCLUDES = -I/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/include 
 

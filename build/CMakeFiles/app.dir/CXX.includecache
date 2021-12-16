@@ -20,33 +20,41 @@ tool.hpp
 tool.hpp
 ../include/tool.hpp
 
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.cpp
+iostream
+-
+iomanip
+-
+electrician.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.hpp
+
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.cpp
 iostream
 -
 iomanip
 -
 lamp.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.hpp
 
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/main.cpp
 iostream
 -
 electrician.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.hpp
 wire.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.hpp
 lamp.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.hpp
 
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/tool.cpp
 iostream
 -
 tool.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/tool.hpp
 
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.cpp
 wire.hpp
-/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.hpp
+/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.hpp
 iostream
 -
 iomanip

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/youzat/Desktop/Tamrins/ACPP-prj/src/electrician.cpp" "/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/src/electrician.cpp.o"
-  "/home/youzat/Desktop/Tamrins/ACPP-prj/src/lamp.cpp" "/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/src/lamp.cpp.o"
-  "/home/youzat/Desktop/Tamrins/ACPP-prj/src/main.cpp" "/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/src/main.cpp.o"
-  "/home/youzat/Desktop/Tamrins/ACPP-prj/src/tool.cpp" "/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/src/tool.cpp.o"
-  "/home/youzat/Desktop/Tamrins/ACPP-prj/src/wire.cpp" "/home/youzat/Desktop/Tamrins/ACPP-prj/build/CMakeFiles/app.dir/src/wire.cpp.o"
+  "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/electrician.cpp" "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/app.dir/src/electrician.cpp.o"
+  "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/lamp.cpp" "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/app.dir/src/lamp.cpp.o"
+  "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/main.cpp" "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/app.dir/src/main.cpp.o"
+  "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/tool.cpp" "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/app.dir/src/tool.cpp.o"
+  "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/src/wire.cpp" "/mnt/c/Users/Youz.A.T/Desktop/prj/ACPP-prj/build/CMakeFiles/app.dir/src/wire.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
