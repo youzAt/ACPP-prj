@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "lamp.hpp"
+#include "include/lamp.hpp"
 using namespace std;
 
 // lamp class constructor definition (also calls tool constructor)

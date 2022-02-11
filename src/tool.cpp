@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tool.hpp"
+#include "include/tool.hpp"
 using namespace std;
 
 // tool class constructor definition
@@ -49,7 +49,7 @@ void tool::fix_tool()
 	}
 	else
 	{
-		durability == 200;
+        durability = 200;
 		cout << "the tool fixed successfully" << endl;
 	}
 }

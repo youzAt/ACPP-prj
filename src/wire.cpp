@@ -1,4 +1,4 @@
-#include "wire.hpp"
+#include "include/wire.hpp"
 #include <iostream>
 #include <iomanip>
 using namespace std;
